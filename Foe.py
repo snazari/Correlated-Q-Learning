@@ -156,7 +156,7 @@ for T in range(n_iter):
 
     ERR.append(np.abs(Q1[s_test, 4, 0] - q_sa))
     # print Q1[0]
-    print T
+    print(T)
 
 
 # print Q1

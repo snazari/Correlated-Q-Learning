@@ -320,7 +320,7 @@ def test_env():
             world[S[s][2]] = 888
             display = world.copy()
             display = np.reshape(display, (2, 4))
-            print display
+            print(display)
 
             # choose random action get the set of possible s'
             a_number = np.random.randint(25)
@@ -374,7 +374,7 @@ def test_env():
 
 
             if (R_a != 0 or R_b != 0):
-                print "DONE!!!"
+                print("DONE!!!")
                 break
 
 # test_env()
